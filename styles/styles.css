@@ -1,6 +1,12 @@
 /* I am going to try to do good comments using the crtl+/ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 nav {
-    background-color: darkblue;
+    background-color: rgb(2, 80, 73);
     padding: 10px;
 }
 
@@ -11,32 +17,30 @@ nav a {
 }
 
 h1 {
-    color: darkblue;
+    color: rgb(9, 114, 83);
 }
 
 main img {
     width: 150px;
     height: auto;
     border: 1px solid black;
+    margin-left: 1rem;
+    margin-bottom: auto
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    float: right;
 }
 
 p {
-    padding: 0;
+    padding: 10px;
 }
 
 main {
     width: 90%;
 }
 
-aside {
+aside { 
     width: 70%;
-    margin: 10%;
-    border: 10px solid darkgreen;
-    padding: 15px;
-    background-color: green;
-    color: white;
     text-align: center;
 }
 
@@ -45,8 +49,23 @@ aside img {
     height: auto;
 }
 
+aside h2 {
+    position: relative;
+    top: 110px;
+    color: rgb(0, 0, 0);
+
+}
+
 footer {
     margin-top: 10px;
     border-top: 4px solid green;
     text-align: center;
+}
+/* It is a comment header for the "CLass Selectors" */
+.box {
+    margin: 1rem;
+    border: 15px;
+    padding: 1rem;
+    background-color: rgb(82, 172, 142);
+    color: rgb(0, 2, 2);
 }
