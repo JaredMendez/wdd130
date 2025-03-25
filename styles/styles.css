@@ -25,7 +25,7 @@ main img {
     height: auto;
     border: 1px solid black;
     margin-left: 1rem;
-    margin-bottom: auto
+    margin-bottom: auto;
     padding: 2px;
     box-shadow: 0 0 30px gray;
     float: right;
@@ -50,7 +50,7 @@ aside img {
 }
 
 aside h2 {
-    position: relative;
+    position: absolute;
     top: 110px;
     color: rgb(0, 0, 0);
 
@@ -61,7 +61,7 @@ footer {
     border-top: 4px solid green;
     text-align: center;
 }
-/* It is a comment header for the "CLass Selectors" */
+/*CLass Selectors*/
 .box {
     margin: 1rem;
     border: 15px;
