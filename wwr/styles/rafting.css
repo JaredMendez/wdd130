@@ -1,0 +1,54 @@
+:root {
+    --primary-color: #9DCDC0;
+    --secondary-color: #D9F4C7;
+    --accent1-color: #F4EF88;
+    --accent2-color: #AC9969;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Rock Salt";
+    font-weight: 400;
+    color: aqua;
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: black;
+}
+
+.hero {
+    position: relative;
+    width: 70%;
+}
+
+.hero h1 {
+    position: absolute;    
+    left: 30%; 
+}
+.hero article{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    width: 80%;
+    padding: 15px;
+    background-color: rgba(245, 245, 220, 0.493) ;
+
+}
+
+.hero article img{ 
+    width: 200px;
+    height: auto;
+    float: right;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+} 
+
+
+.sociallinks a{
+    text-decoration: none;
+}
