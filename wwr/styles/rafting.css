@@ -18,9 +18,54 @@ p {
     color: black;
 }
 
+/* header */
+.header {   
+    margin-bottom: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 1fr;
+    background: #1d9e89;   
+}
+
+/* logo header */
+.logo-box {   
+    margin: 5% 5% 5% 40%;
+} 
+
+nav ul.menu {
+    list-style-type: none; /* Elimina los puntos de la lista */
+    display: flex; /* Usamos flexbox para hacer el menú horizontal */
+    justify-content: space-between;  /*Centra los elementos en el contenedor*/
+    background-color: #817c7c; /* Color de fondo */
+    margin: 5rem 3rem 5rem 1rem;
+}
+
+
+nav {
+    grid-column: 2 / 4; 
+}
+
+nav ul.menu li {
+    padding: 1rem; /* Espaciado entre los elementos del menú */
+}
+
+nav ul.menu li a {
+    text-decoration: none; /* Quitar el subrayado de los enlaces */
+    color: white; /* Color del texto */
+    padding: 10px 20px; /* Relleno alrededor de los enlaces */
+    display: block; /* Hace que el área clickeable sea el bloque completo */
+}
+
+nav ul.menu li a:hover {
+    background-color: #575757; /* Color al pasar el ratón */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+
 .hero {
     position: relative;
-    width: 70%;
+    width: 100%;
+    
 }
 
 .hero h1 {
@@ -48,7 +93,40 @@ p {
     height: auto;
 } 
 
+.adventure {
+    text-align: center;
+}
+
+.adventureimg {
+    display: flex;
+}
+
+.adventureimg img {
+    /* padding: 0.42rem; */
+    margin: 1rem;
+    max-width: 18.3%;
+    max-height: auto;
+}
+
+
+footer{
+    background-color: #575757;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+footer p {
+    margin-left: 35%;
+    margin-top: 1.5rem;
+}
 
 .sociallinks a{
     text-decoration: none;
+    padding: 1rem;
+    margin-right: 1rem;
+}
+
+.sociallinks {
+    padding: 0.8rem;
 }
