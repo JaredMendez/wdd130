@@ -109,19 +109,30 @@ nav ul.menu li a:hover {
 
 /* ADVENTURE */
 
-.adventure {
-    text-align: center;
-}
-
 .adventureimg {
     display: flex;
-}
-
-.adventureimg img {
-    margin: 1rem;
-    max-width: 18.3%;
-    max-height: auto;
-}
+    justify-content: space-between;
+    gap: 1rem;
+  }
+  
+  .adventureimg figure {
+    flex: 1;
+    text-align: center;
+    margin: 0;
+  }
+  
+  .adventureimg img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+  }
+  
+  .adventureimg figcaption {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    color: #333;
+  }
 
 /* FOOTER */
 
