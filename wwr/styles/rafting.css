@@ -24,7 +24,7 @@ p {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr; 
     grid-template-rows: 1fr;
-    background: #1d9e89;   
+    background: #9DCDC0;   
 }
 
 /* logo header */
@@ -33,44 +33,40 @@ p {
 } 
 
 nav ul.menu {
-    list-style-type: none; /* Elimina los puntos de la lista */
-    display: flex; /* Usamos flexbox para hacer el menú horizontal */
-    justify-content: space-between;  /*Centra los elementos en el contenedor*/
-    background-color: #817c7c; /* Color de fondo */
+    list-style-type: none; /*elimina puntos de la lista */
+    display: flex;
+    justify-content: space-between; 
+    background-color: #159489; 
     margin: 5rem 3rem 5rem 1rem;
 }
-
 
 nav {
     grid-column: 2 / 4; 
 }
 
 nav ul.menu li {
-    padding: 1rem; /* Espaciado entre los elementos del menú */
+    padding: 1rem;
 }
 
 nav ul.menu li a {
-    text-decoration: none; /* Quitar el subrayado de los enlaces */
-    color: white; /* Color del texto */
-    padding: 10px 20px; /* Relleno alrededor de los enlaces */
-    display: block; /* Hace que el área clickeable sea el bloque completo */
+    text-decoration: none; 
+    color: white; 
+    padding: 10px 20px;
 }
 
 nav ul.menu li a:hover {
-    background-color: #575757; /* Color al pasar el ratón */
+    background-color: #224646; /* Color al pasar el ratón */
     border-radius: 5px; /* Bordes redondeados */
 }
 
-
 .hero {
     position: relative;
-    width: 100%;
-    
+    width: 100%;   
 }
 
 .hero h1 {
     position: absolute;    
-    left: 30%; 
+    left: 35%; 
 }
 .hero article{
     position: absolute;
@@ -93,6 +89,26 @@ nav ul.menu li a:hover {
     height: auto;
 } 
 
+/* HISTORY */
+
+.history{
+    background-color: #9DCDC0;
+}
+
+.history h2{
+    text-align: center;
+}
+
+.historyflex{
+    margin: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 3rem;
+    padding-bottom: 15px;
+}
+
+/* ADVENTURE */
+
 .adventure {
     text-align: center;
 }
@@ -102,15 +118,15 @@ nav ul.menu li a:hover {
 }
 
 .adventureimg img {
-    /* padding: 0.42rem; */
     margin: 1rem;
     max-width: 18.3%;
     max-height: auto;
 }
 
+/* FOOTER */
 
 footer{
-    background-color: #575757;
+    background-color: #9DCDC0;
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
