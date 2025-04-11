@@ -28,9 +28,7 @@
     <main>
        <h1>Contact Us</h1>
 
-            <caption></caption>
-
-       <h2>Send us a message</h2>
+       <h3>Send us a message</h3>
        <p>Cochabamba-Bolivia</p>
        <p>+591 62626786</p>
        <p>kolob.mendez2@gmail.com</p>
@@ -38,6 +36,50 @@
        <div>
         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3806.9378424298466!2d-66.12899392395236!3d-17.41477036494025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sbo!4v1744256513230!5m2!1ses!2sbo" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
        </div>
+
+       <h2>Meet the team</h2>
+          <figure>
+            <img src="images/employee1.webp" alt="Happy Employee" width="250">
+            <figcaption>CEO Jared Mendez</figcaption>
+          </figure>
+
+          <figure>
+            <img src="images/employee2.webp" alt="Happy Employee" width="250">
+            <figcaption>Route guide</figcaption>
+          </figure>
+
+          <figure>
+            <img src="images/employee3.webp" alt="Happy Employee" width="250">
+            <figcaption>Sales Associate</figcaption>
+          </figure>
+
+          <div class="form-container">
+            <form action="/submit-form" method="post">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="user_name" required>
+        
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="user_email" required>
+        
+              <label>Purpose of the message:</label>
+              <div class="radio-group">
+                <label><input type="radio" name="purpose" value="general" required> General Inquiry</label>
+                <label><input type="radio" name="purpose" value="reservation"> Reservation Question</label>
+                <label><input type="radio" name="purpose" value="suggestion"> Website Suggestion</label>
+              </div>
+        
+              <label for="message">Message:</label>
+              <textarea id="message" name="user_message" rows="5" required></textarea>
+        
+              <div class="checkbox-label">
+                <input type="checkbox" id="subscribe" name="subscribe">
+                <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+              </div>
+        
+              <button type="submit">Send Message</button>
+            </form>
+          </div>
+
     </main>
     <footer>
         
