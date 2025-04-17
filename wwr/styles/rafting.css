@@ -8,6 +8,7 @@
 
 h1, h2, h3, h4, h5, h6 {
     font-family: "Rock Salt";
+    text-align: center;
     font-weight: 400;
     color: rgb(9, 31, 73);
 }
@@ -17,12 +18,54 @@ p {
     font-weight: 400;
     color: black;
 }
-/* body */
 
-.body {
-    text-align: center;
+body{
+    align-items: center;
 }
 
+/* here starts the form name and email */
+.newsletter-container {
+    margin: 1px 1rem 1rem 35%;
+    background: #9DCDC0;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    max-width: 400px;
+    width: 100%;
+  }
+  .newsletter-container h2 {
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  label {
+    margin-top: 1rem;
+    font-weight: bold;
+  }
+  input[type="text"],
+  input[type="email"] {
+    padding: 10px;
+    margin-top: 0.3rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  button {
+    margin-top: 1.5rem;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #0056b3;
+  }
+/* here ends the form name and email */
 
 /* header */
 .header {   
@@ -39,7 +82,7 @@ p {
 } 
 
 nav ul.menu {
-    list-style-type: none; /*elimina puntos de la lista */
+    list-style-type: none; /*elimina puntos de la lista*/
     display: flex;
     justify-content: space-between; 
     background-color: #159489; 
