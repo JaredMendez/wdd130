@@ -9,7 +9,7 @@
 h1, h2, h3, h4, h5, h6 {
     font-family: "Rock Salt";
     font-weight: 400;
-    color: aqua;
+    color: rgb(9, 31, 73);
 }
 
 p {
@@ -17,6 +17,12 @@ p {
     font-weight: 400;
     color: black;
 }
+/* body */
+
+.body {
+    text-align: center;
+}
+
 
 /* header */
 .header {   
